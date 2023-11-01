@@ -1,17 +1,17 @@
 # vnc-google-shell using **CHROME DESKTOP**
 
-  1. https://shell.cloud.google.com/
-     
-**Paste:**
+## using Google cloud shell: 
+- Go to: https://shell.cloud.google.com/
+<br>
+**Paste in the terminal:**
   1. ```bash
-     git clone https://github.com/Monjurul-Hasan-Sohan/gcp-for-free-upto-64gb-ram-500gb-rom-with-vnc-and-chrome-rdp/tree/master
+     git clone https://github.com/Monjurul-Hasan-Sohan/GCP_For_Free.git
      ```
   2. ```bash
-     cd Chrome-Remote-Desktop--gcp
+     cd GCP_For_Free
      ```
-
-**Make executable:**
 <br>
+**Make executable:**
   option 1:
    1. ```bash
       chmod +x vnc.sh
@@ -19,36 +19,45 @@
    2. ```bash
       ./vnc.sh
       ```
-  <br>
   option 2:
   
 ```bash
   python vnc.py
   ```
-## setup chrome VNC:
-  1. https://remotedesktop.google.com/headless
-  2. click begin , click before , click authorize
-  3. copy "Debian Linux" and paste on terminal/shell google console
-  4. https://remotedesktop.google.com/access
+<br>
+### setup chrome VNC:
+  1. go to: https://remotedesktop.google.com/headless
+  2. click begin , click before , click authorize,
+  3. copy "Debian Linux" and paste on terminal/shell google console,
+  
+  To accsess your gcp with gui, go to: https://remotedesktop.google.com/access
 
 <br>
-
-## console restart / reset:
-  1. python vnc.py
-  2. https://remotedesktop.google.com/headless
-  3. click begin , click before , click authoriz
-  4. copy "Debian Linux" and paste on terminal/shell google console
-  5. https://remotedesktop.google.com/access
+<br>
+<br>
 
 # Using gitpod with chrome:
-[go to](https://gitpod.io/workspaces)!
+[go to](https://gitpod.io/workspaces) https://gitpod.io/workspaces
+
+**Paste in the terminal:**
   1. ```bash
-     git clone https://github.com/Monjurul-Hasan-Sohan/gcp-for-free-upto-64gb-ram-500gb-rom-with-vnc-and-chrome-rdp/tree/master
+     git clone https://github.com/Monjurul-Hasan-Sohan/GCP_For_Free.git
      ```
-  2. **Make executable:**<br>
+  2. ```bash
+     cd GCP_For_Free
+     ```
+<br>   
+**Make executable:**
   - ```bash
     chmod +x gitpod.sh
     ```
   - ```bash
     ./gitpod.sh
     ```
+<br>
+### setup chrome VNC:
+  1. go to: https://remotedesktop.google.com/headless
+  2. click begin , click before , click authorize,
+  3. copy "Debian Linux" and paste on terminal/shell google console,
+  
+  To accsess your gcp with gui, go to: https://remotedesktop.google.com/access
