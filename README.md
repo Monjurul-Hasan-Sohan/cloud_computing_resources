@@ -23,6 +23,9 @@
     2. ```bash
        ./vnc.sh
        ```
+    3. ```bash
+       sed -i -e 's/\r$//' scriptname.sh
+       ```
   
 - option 2:
     ```bash
