@@ -2,29 +2,35 @@
 
 ## using Google cloud shell: 
 - Go to: https://shell.cloud.google.com/
+
 <br>
+
 **Paste in the terminal:**
-  1. ```bash
-     git clone https://github.com/Monjurul-Hasan-Sohan/GCP_For_Free.git
-     ```
+  1.  ```bash
+      git clone https://github.com/Monjurul-Hasan-Sohan/GCP_For_Free.git
+      ```
   2. ```bash
      cd GCP_For_Free
      ```
+
 <br>
+
 **Make executable:**
-  option 1:
-   1. ```bash
-      chmod +x vnc.sh
-      ```
-   2. ```bash
-      ./vnc.sh
-      ```
-  option 2:
+- option 1:
+    1. ```bash
+       chmod +x vnc.sh
+       ```
+    2. ```bash
+       ./vnc.sh
+       ```
   
-```bash
+- option 2:
+    ```bash
   python vnc.py
-  ```
+    ```
+    
 <br>
+
 ### setup chrome VNC:
   1. go to: https://remotedesktop.google.com/headless
   2. click begin , click before , click authorize,
@@ -46,15 +52,19 @@
   2. ```bash
      cd GCP_For_Free
      ```
+     
 <br>   
+
 **Make executable:**
-  - ```bash
-    chmod +x gitpod.sh
-    ```
-  - ```bash
-    ./gitpod.sh
-    ```
+```bash
+  chmod +x gitpod.sh
+  ```
+```bash
+./gitpod.sh
+```
+
 <br>
+
 ### setup chrome VNC:
   1. go to: https://remotedesktop.google.com/headless
   2. click begin , click before , click authorize,
